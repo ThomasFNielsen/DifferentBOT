@@ -7,7 +7,7 @@ client.on("ready", () => {
 });
 
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('549976697878085633').send(member + " - Hjertelig velkommen til discorden <:DifferentCommunity:549989980810772480>"); 
+    member.guild.channels.get('549991435324096514').send(member + " - Hjertelig velkommen til discorden <:DifferentCommunity:549989980810772480>"); 
 });
 
 const wait = require('util').promisify(setTimeout);
