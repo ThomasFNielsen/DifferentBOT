@@ -7,7 +7,7 @@ client.on("ready", () => {
 });
 
 client.on('guildMemberAdd', member => {
-    member.guild.channels.get('531141784600838144').send(member + " - Hjertelig velkommen til discorden <:Love:537271965023731742>"); 
+    member.guild.channels.get('531141784600838144').send(member + " - Hjertelig velkommen til discorden <:DifferentCommunity:549989980810772480>"); 
 });
 
 const wait = require('util').promisify(setTimeout);
@@ -38,83 +38,10 @@ client.on('guildMemberAdd', member => {
 
         console.log(invite.code)
 
-        if (invite.code === "PBE7Qnc") {
+        if (invite.code === "4DRVTmt") {
             return member.addRole(member.guild.roles.find(role => role.name === "MEDLEM"));
         }
     });
-});
-
-client.on('message', (message) => {
-    if (message.content === 'Hey') {
-    	message.channel.send(message.author + ' - Heeey <:Love:537271965023731742>');
-    }
-});
-
-
-client.on('message', message => {
-    if (message.content === 'hey') {
-    	message.channel.send(message.author + ' - Heeey <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'Heeey') {
-    	message.channel.send(message.author + ' - Heeey <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'heeey') {
-    	message.channel.send(message.author + ' - Heeey <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'heey') {
-    	message.channel.send(message.author + ' - Heeey <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'Heey') {
-    	message.channel.send(message.author + ' - Heeey <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'Goddag') {
-    	message.channel.send(message.author + ' - Goddag <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'goddag') {
-    	message.channel.send(message.author + ' - Goddag <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'Godmorgen') {
-    	message.channel.send(message.author + ' - Godmorgen <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'godmorgen') {
-    	message.channel.send(message.author + ' - Godmorgen <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'Godaften') {
-    	message.channel.send(message.author + ' - Godaften <:Love:537271965023731742>');
-    }
-});
-
-client.on('message', message => {
-    if (message.content === 'godaften') {
-    	message.channel.send(message.author + ' - Godaften <:Love:537271965023731742>');
-    }
 });
 
 // THIS  MUST  BE  THIS  WAY 
