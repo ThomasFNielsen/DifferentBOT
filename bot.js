@@ -38,7 +38,7 @@ client.on('guildMemberAdd', member => {
 
         console.log(invite.code)
 
-        if (invite.code === "4DRVTmt") {
+        if (invite.code === "QjGFUeF") {
             return member.addRole(member.guild.roles.find(role => role.name === "MEDLEM"));
         }
     });
